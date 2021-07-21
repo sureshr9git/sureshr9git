@@ -1,4 +1,4 @@
-1  whoami
+    1  whoami
     2  cat /etc/shadow
     3  cat /etc/group
     4  useradd spandana
@@ -46,7 +46,7 @@
    23  yum install httpd
    24  sudo su
    25  history
-68  vi first.sh
+   68  vi first.sh
    69  ll
    70  cat first.sh
    71  ll
@@ -70,7 +70,7 @@
    89  /bin/sh
    90  echo $SHELL
    91  history
-80  ll
+   80  ll
    81  cd scripts/
    82  ll
    83  ll
@@ -110,7 +110,7 @@
   117  ./result.sh 1500223
   118  cat result.sh
   119  history
-123  vi createuser.sh
+  123  vi createuser.sh
   124  ll
   125  chmod +x createuser.sh
   126  ll
@@ -137,9 +137,7 @@
   147  vi userslist.txt
   148  ll
   149  for USERS in `cat userslist.txt`; do echo " the username is $USERS "; done
-  150  history
-
-203  yum install git -y
+  203  yum install git -y
   204  git --version
   205  git config --global user.name "spandana"
   206  git config --global user.email "spandana@cloudbots.in"
@@ -163,12 +161,7 @@
   224  ls
   225  ll
   226  history
-
-
-------
-  150  history
-
-399  git branch
+  399  git branch
   400  ll
   401  vi issue1file.java
   402  git branch issue1
@@ -201,10 +194,7 @@
   429  git add issue1file.java
   430  git commit
   431  git status
-From Spandana Koya to Everyone:  08:40 PM
-sorry 393 only
-From Srikanth AWS&DEVOPS to Everyone:  08:40 PM
-442  git remote
+  442  git remote
   443  git remote -v
   444  git branch
   445  git branch -r
