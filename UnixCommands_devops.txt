@@ -1,0 +1,230 @@
+1  whoami
+    2  cat /etc/shadow
+    3  cat /etc/group
+    4  useradd spandana
+    5  cat /etc/passwd
+    6  l
+    7  cat /etc/group
+    8  cat /etc/shadow
+    9  passwd spandana
+   10  cat /etc/shadow
+   11  id spandana
+   12  passwd spandana
+   13  cat /etc/shadow
+   14  id spandana
+   15  groupadd devops
+   16  cat /etc/group
+   17  id spandana
+   18  usermod -aG devops spandana
+   19  id spandana
+   20  cat /etc/group
+   21  groupmod -n devopsadmins devops
+   22  cat /etc/group
+   23  history
+	ls
+    2  cat /etc/passwd
+    3  cat /etc/shadow
+    4  whoami
+    5  sudo su
+    6  uname -a
+    7  uname -v
+    8  uname -m
+    9  cat /etc/os-release
+   10  rpm -qa
+   11  rpm -qa | wc -l
+   12  rpm -qa
+   13  rpm -qa | less
+   14  rpm -qi cronie-1.4.11-23.amzn2.x86_64
+   15  rpm -ql cronie-1.4.11-23.amzn2.x86_64
+   16  rpm -qf /etc/group
+   17  rpm -qf /etc/passwd
+   18  yum install <package>
+   19  yum install wget
+   20  sudo su
+   21  yum install wget
+   22  sudo yum install wget
+   23  yum install httpd
+   24  sudo su
+   25  history
+68  vi first.sh
+   69  ll
+   70  cat first.sh
+   71  ll
+   72  pwd
+   73* /home/ec2-u
+   74  ./first.sh
+   75  /bin/bash first.sh
+   76  ll
+   77  chmod +x first.sh
+   78  ll
+   79  vi first.sh
+   80  ll
+   81  /home/ec2-user/scripts/first.sh
+   82  ./first.sh
+   83  vi first.sh
+   84  cat first.sh
+   85  vi first.sh
+   86  cat first.sh
+   87  cat /etc/passwd
+   88  cat first.sh
+   89  /bin/sh
+   90  echo $SHELL
+   91  history
+80  ll
+   81  cd scripts/
+   82  ll
+   83  ll
+   84  vi file.sh
+   85  ll
+   86  ./file.sh
+   87  whoami
+   88  vi user.sh
+   89  ll
+   90  chmod +x user.sh
+   91  ll
+   92  whoami
+   93  ./user.sh
+   94  vi result.sh
+   95  chmod +x result.sh
+   96  ./result.sh
+   97  cat result.sh
+   98  vi result.sh
+   99  ./result.sh
+  100  vi result.sh
+  101  ./result.sh
+  102  vi result.sh
+  103  ./result.sh
+  104  ./result.sh 75
+  105  vi result.sh
+  106  vi result.sh 35
+  107  ./result.sh 35
+  108  ./result.sh 45
+  109  ./result.sh 46
+  110  ./result.sh 56
+  111  ./result.sh 66
+  112  ./result.sh 6600000000000
+  113  ./result.sh
+  114  vi result.sh
+  115  ./result.sh
+  116  vi result.sh
+  117  ./result.sh 1500223
+  118  cat result.sh
+  119  history
+123  vi createuser.sh
+  124  ll
+  125  chmod +x createuser.sh
+  126  ll
+  127  ./createuser.sh
+  128  whoami
+  129  ./createuser.sh priya
+  130  cat /etc/passwd
+  131  cat /etc/shadow
+  132  ll
+  133  vi createuser.sh
+  134  ./createuser.sh priya
+  135  which useradd
+  136  whereis useradd
+  137  for NO in 1 2 3 4 5 6 7 8 9 10; do echo " the number is $NO "; done
+  138  for NUM in one 2 3 4 five 6 seven 8 9 10; do echo " the number is $NUM "; done
+  139  for NUM in [1..15]; do echo " The number is $NUM "; done
+  140  for NUM in {1..15}; do echo " the number is $NUM "; done
+  141  ll
+  142  for i in {1..10}; do touch "nitfile$i"; done
+  143  ll
+  144  for NEWUSER in alok sateesh kashi; do useradd "$NEWUSER"; done
+  145  cat /etc/passwd
+  146  ll
+  147  vi userslist.txt
+  148  ll
+  149  for USERS in `cat userslist.txt`; do echo " the username is $USERS "; done
+  150  history
+
+203  yum install git -y
+  204  git --version
+  205  git config --global user.name "spandana"
+  206  git config --global user.email "spandana@cloudbots.in"
+  207  git config --list
+  208  ll
+  209  ls -l ~/.gitconfig
+  210  vi ~/.gitconfig
+  211  ll
+  212  mkdir cloudbots
+  213  ll
+  214  cd cloudbots/
+  215  pwd
+  216  ls -la
+  217  git init
+  218  ls -la
+  219  cd .git/
+  220  ll
+  221  cd ..
+  222  ll
+  223  ls -la
+  224  ls
+  225  ll
+  226  history
+
+
+------
+  150  history
+
+399  git branch
+  400  ll
+  401  vi issue1file.java
+  402  git branch issue1
+  403  git checkout issue1
+  404  ll
+  405  cat issue1file.java
+  406  git checkout master
+  407  ll
+  408  git status
+  409  vi issue1file.java
+  410  git status
+  411  git add .
+  412  git commit -m "dev1code according to req1"
+  413  git status
+  414  git checkout issue1
+  415  git status
+  416  vi issue1file.java
+  417  cat issue1file.java
+  418  vi issue1file.java
+  419  cat issue1file.java
+  420  git status
+  421  git add .
+  422  git commit -m "dev2code according to req1"
+  423  git status
+  424  git checkout master
+  425  git diff master..issue1
+  426  git merge issue1
+  427  vi issue1file.java
+  428  git status
+  429  git add issue1file.java
+  430  git commit
+  431  git status
+From Spandana Koya to Everyone:  08:40 PM
+sorry 393 only
+From Srikanth AWS&DEVOPS to Everyone:  08:40 PM
+442  git remote
+  443  git remote -v
+  444  git branch
+  445  git branch -r
+  446  git branch -a
+  447  git push -u origin master
+  448  git branch -r
+  449  git branch -a
+  450  git diff master..remotes/origin/master
+  451  git diff master..remotes/origin/master
+  452  git diff master..remotes/origin/master
+  453  git branch
+  454  git checkout master
+  455  git diff master..remotes/origin/master
+  456  git merge remotes/origin/master
+  457  ll
+  458  git fetch
+  459  git checkout master
+  460  git diff master..remotes/origin/master
+  461  git merge remotes/origin/master
+  462  git branch
+  463  ll
+  464  history
+
